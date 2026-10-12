@@ -8,13 +8,13 @@ function Home() {
   <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
     <div>
       <span className="text-xs font-semibold tracking-wider text-amber-400 uppercase bg-amber-950/60 border border-amber-800/50 px-2.5 py-1 rounded-full">
-        QC Baked Goods
+        Welcome to Kissena Baked Goods
       </span>
       <h1 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight mt-2">
         Financial Statements
       </h1>
-      <p className="text-sm text-gray-400 mt-1">
-        Overview of revenue, expenses, and fiscal health.
+      <p className="text-md text-green-400">
+        We are a new company. Year 2025 is our first full year of operations. On this site, we will share our financial statements and reports.
       </p>
     </div>
     

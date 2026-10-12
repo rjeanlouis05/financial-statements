@@ -6,7 +6,7 @@ import appCss from '../styles.css?url'
 
 export const Route = createRootRoute({
   head: () => ({
-    title: 'QC Baked Goods',
+    title: 'Kissena Baked Goods',
     meta: [
       {
         charSet: 'utf-8',
