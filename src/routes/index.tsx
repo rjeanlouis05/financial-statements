@@ -10,7 +10,7 @@ function Home() {
       <div className="border-b border-gray-800 pb-5 mb-6">
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
           <div>
-            <span className="text-xl font-semibold tracking-wider text-amber-400 uppercase bg-amber-950/60 border border-amber-800/50 px-2.5 py-1 rounded-full">
+            <span className="text-xl font-semibold tracking-wider text-amber-400 uppercase bg-amber-950/60 border border-amber-800/50 px-2.5 py-1 rounded-full text-red-400 shadow-md shadow-amber-950/50">
               Welcome to Kissena Baked Goods
             </span>
             <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight bg-gradient-to-r from-amber-200 via-amber-400 to-amber-500 bg-clip-text text-transparent mb-3">
