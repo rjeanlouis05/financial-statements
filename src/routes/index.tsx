@@ -1,32 +1,71 @@
-import { createFileRoute } from '@tanstack/react-router'
+
+import {
+  createFileRoute,
+} from '@tanstack/react-router'
 
 export const Route = createFileRoute('/')({
-  component: Home,
+  component: HomePage,
+  head: () => ({
+    links: [
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700&family=IBM+Plex+Sans:wght@400;600;700&display=swap',
+      },
+    ],
+  }),
 })
 
-function Home() {
+
+function HomePage() {
   return (
-    <div className="bg-gray-900 text-gray-100 min-h-screen">
-      <div className="border-b border-gray-800 pb-5 mb-6">
-        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
-          <div>
-            <span className="text-xl font-semibold tracking-wider text-amber-400 uppercase bg-amber-950/60 border border-amber-800/50 px-2.5 py-1 rounded-full text-red-400 shadow-md shadow-amber-950/50">
-              Welcome to Kissena Baked Goods
-            </span>
-            <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight bg-gradient-to-r from-amber-200 via-amber-400 to-amber-500 bg-clip-text text-transparent mb-3">
-              Financial Statements
-            </h1>
-            <p className="text-sm sm:text-base text-gray-400 max-w-2xl font-medium leading-relaxed">
-              We are a new company. Year 2025 is our first full year of operations. On this site, we will share our financial statements and reports.
-            </p>
-            <div className="bg-yellow-900 m-10 rounded-lg p-4">
-              <button type="button" className="px-5 py-2.5 rounded-lg bg-amber-500 hover:bg-amber-400 text-gray-950 font-semibold text-sm transition-all shadow-md hover:shadow-amber-500/20 active:scale-95 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2 focus:ring-offset-gray-900">
-                Click here!
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div>
+      <header>
+        <h1>Welcome to Kissena Baked Goods</h1>
+        <p>Financial statements</p>
+      </header>
+     <p>
+  Kissena Baked Goods is a bakery in{" "}
+  <a href="https://qc.cuny.edu"
+     target="_blank" rel="noopener noreferrer" className="underline">
+    Astoria, Queens, New York
+  </a>. It sells a wholesale line and accepts custom cake orders, including weddings.
+  {" "}<span>(The location link opens a new tab.)</span>
+</p>
+      <p>
+        Kissena Baked Goods Inc. incorporated in New York State in late 20X4
+        and opened in January 20X5. It has three ovens, four delivery vans,
+        and 14 staff members.
+      </p>
+      <h2>What we bake</h2>
+<ul className="list-disc pl-6">
+  <li>Sourdough, semolina, and rye loaves</li>
+  <li>Kaiser rolls, hero bread, and dinner rolls</li>
+  <li>Croissants, danishes, and morning pastry</li>
+  <li>Cheesecake, black and white cookies, and sheet cakes</li>
+  <li>Seasonal orders, including hot cross buns and tsoureki</li>
+</ul>
+<h2>How a wholesale order is completed</h2>
+<ol className="list-decimal pl-6">
+  <li>A customer places a wholesale order.</li>
+  <li>The manager prepares a bake sheet.</li>
+  <li>Bakers prepare and bake the ordered goods.</li>
+  <li>Drivers deliver the goods to the customer.</li>
+  <li>The accountant records the credit sale and accounts receivable.</li>
+</ol>
+    <h2>The year in brief</h2>
+<p>
+  In 20X5, net sales were $1,500,000 and net income was $230,000.
+  These illustrative financial statements describe the year ended December 31, 20X5.
+</p>
     </div>
   )
 }
+
+
+
+
+
+
+
+
+ 
