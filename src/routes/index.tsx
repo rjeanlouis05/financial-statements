@@ -20,7 +20,7 @@ function Home() {
               We are a new company. Year 2025 is our first full year of operations. On this site, we will share our financial statements and reports.
             </p>
             <div className="bg-yellow-900 m-10 rounded-lg p-4">
-              <button className="px-5 py-2.5 rounded-lg bg-amber-500 hover:bg-amber-400 text-gray-950 font-semibold text-sm transition-all shadow-md hover:shadow-amber-500/20 active:scale-95 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2 focus:ring-offset-gray-900">
+              <button type="button" className="px-5 py-2.5 rounded-lg bg-amber-500 hover:bg-amber-400 text-gray-950 font-semibold text-sm transition-all shadow-md hover:shadow-amber-500/20 active:scale-95 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2 focus:ring-offset-gray-900">
                 Click here!
               </button>
             </div>
