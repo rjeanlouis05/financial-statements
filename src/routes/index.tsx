@@ -58,7 +58,7 @@ function HomePage() {
   These illustrative financial statements describe the year ended December 31, 20X5.
 </p>
     </div>
-  )
+  );
 }
 
 
