@@ -25,7 +25,7 @@ function HomePage() {
       </header>
      <p>
   Kissena Baked Goods is a bakery in{" "}
-  <a href="https://qc.cuny.edu"
+  <a href="https://en.wikipedia.org/wiki/Astoria,_Queens"
      target="_blank" rel="noopener noreferrer" className="underline">
     Astoria, Queens, New York
   </a>. It sells a wholesale line and accepts custom cake orders, including weddings.
