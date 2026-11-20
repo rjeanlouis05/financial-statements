@@ -18,33 +18,33 @@ function IncomeStatement() {
         This example assumes no other income, expenses, interest, or income taxes.
       </p>
       <div className="max-w-2xl mx-auto mt-10 border border-edge rounded-md bg-surface overflow-x-auto">
-        <table>
+       <table className="w-full"> 
           <thead>
             <tr>
-              <th scope="col">Account</th>
-              <th scope="col">Amount (USD)</th>
+             <th scope="col" className="text-left px-5 py-3 bg-raised"> Account</th>
+              <th scope="col" className="text-right px-5 py-3 bg-raised whitespace-nowrap">Amount (USD)</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <th scope="row">Net sales</th>
-              <td id="net-sales">$1,500,000</td>
+              <th scope="row" className="text-left px-5 py-3 border-t border-edge font-normal">Net sales</th>
+              <td id="net-sales" className="text-right px-5 py-3 border-t border-edge tabular-nums whitespace-nowrap">$1,500,000</td>
             </tr>
             <tr>
-              <th scope="row">Cost of goods sold</th>
-              <td id="cogs">(600,000)</td>
+              <th scope="row" className="text-left px-5 py-3 border-t border-edge font-normal">Cost of goods sold</th>
+              <td id="cogs" className="text-right px-5 py-3 border-t border-edge tabular-nums whitespace-nowrap">(600,000)</td>
             </tr>
             <tr>
-              <th scope="row">Gross profit</th>
-              <td id="gross-profit">900,000</td>
+              <th scope="row" className="text-left px-5 py-3 border-t border-edge font-normal font-semibold">Gross profit</th>
+              <td id="gross-profit" className="text-right px-5 py-3 border-t border-edge tabular-nums whitespace-nowrap font-semibold">900,000</td>
             </tr>
             <tr>
-              <th scope="row">Selling, general, and administrative expenses</th>
-              <td id="sga">(670,000)</td>
+              <th scope="row" className="text-left px-5 py-3 border-t border-edge font-normal">Selling, general, and administrative expenses</th>
+              <td id="sga" className="text-right px-5 py-3 border-t border-edge tabular-nums whitespace-nowrap">(670,000)</td>
             </tr>
             <tr>
-              <th scope="row">Net income</th>
-              <td id="net-income">$230,000</td>
+              <th scope="row" className="text-left px-5 py-3 border-t-4 border-double border-edge font-normal font-semibold bg-raised">Net income</th>
+              <td id="net-income" className="text-right px-5 py-3 border-t-4 border-double border-edge tabular-nums whitespace-nowrap font-semibold bg-raised">$230,000</td>
             </tr>
           </tbody>
         </table>
