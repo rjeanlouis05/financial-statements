@@ -31,8 +31,8 @@ export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths: '/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to: '/' | '/disclosures'
+  id: '__root__' | '/' | '/disclosures'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
