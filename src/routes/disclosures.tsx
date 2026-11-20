@@ -1,6 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router"
-
-export const Route = createFileRoute("/disclosures" as never)({
+export const Route = createFileRoute("/disclosures")({
   head: () => ({ meta: [{ title: "Disclosures | Kissena Baked Goods" }] }),
   component: Disclosures,
 })
@@ -15,3 +14,4 @@ function Disclosures() {
     </div>
   )
 }
+
