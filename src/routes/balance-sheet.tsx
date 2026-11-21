@@ -47,6 +47,42 @@ function BalanceSheet() {
             </tr>
           </tbody>
         </table>
+        <p className="mt-6 text-ink-soft">Retained earnings equals this example's net income because beginning retained earnings is zero, no dividends are paid, and no other retained earnings adjustments occur.</p>
+       <div className="max-w-2xl mx-auto mt-10 border border-edge rounded-md bg-surface overflow-x-auto">
+<table className="w-full">
+  <caption className="text-left font-semibold px-5 py-3">Liabilities and stockholders' equity</caption>
+  <thead><tr><th scope="col" className="text-left px-5 py-3">Account</th><th scope="col" className="text-right px-5 py-3 whitespace-nowrap">Amount (USD)</th></tr></thead>
+  <tbody>
+  <tr><th colSpan={2} className="text-left px-5 py-3 bg-raised">Liabilities</th></tr>
+  <tr>
+    <th scope="row" className="text-left pl-9 pr-5 py-3 border-t border-edge font-normal">Accounts payable</th>
+    <td id="accounts-payable" className="text-right px-5 py-3 border-t border-edge tabular-nums whitespace-nowrap">$70,000</td>
+  </tr>
+  <tr>
+    <th scope="row" className="text-left px-5 py-3 border-t border-edge font-normal font-semibold">Total liabilities</th>
+    <td id="total-liabilities" className="text-right px-5 py-3 border-t border-edge tabular-nums whitespace-nowrap font-semibold">70,000</td>
+  </tr>
+  <tr><th colSpan={2} className="text-left px-5 py-3 bg-raised">Stockholders' equity</th></tr>
+  <tr>
+    <th scope="row" className="text-left pl-9 pr-5 py-3 border-t border-edge font-normal">Common stock</th>
+    <td id="common-stock" className="text-right px-5 py-3 border-t border-edge tabular-nums whitespace-nowrap">500,000</td>
+  </tr>
+  <tr>
+    <th scope="row" className="text-left pl-9 pr-5 py-3 border-t border-edge font-normal">Retained earnings</th>
+    <td id="retained-earnings" className="text-right px-5 py-3 border-t border-edge tabular-nums whitespace-nowrap">230,000</td>
+  </tr>
+  <tr>
+    <th scope="row" className="text-left px-5 py-3 border-t border-edge font-normal font-semibold">Total equity</th>
+    <td id="total-equity" className="text-right px-5 py-3 border-t border-edge tabular-nums whitespace-nowrap font-semibold">730,000</td>
+  </tr>
+  <tr>
+    <th scope="row" className="text-left px-5 py-3 border-t-4 border-double border-edge font-normal font-semibold bg-raised">Total liabilities and equity</th>
+    <td id="total-liab-equity" className="text-right px-5 py-3 border-t-4 border-double border-edge tabular-nums whitespace-nowrap font-semibold bg-raised">$800,000</td>
+  </tr>
+  </tbody>
+</table>
+</div> 
+<p className="mt-6 text-ink-soft">The displayed totals are typed. Recalculate $70,000 plus $730,000 and compare the $800,000 result with total assets. This page does not perform that calculation.</p>
       </div>
     </>
   )
