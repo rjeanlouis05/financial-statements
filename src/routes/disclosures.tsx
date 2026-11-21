@@ -23,6 +23,29 @@ function Disclosures() {
   <li>Add the two receivables components.</li>
   <li>Compare each total with the balance sheet.</li>
 </ol>
+<h2 className="font-display text-2xl mt-10 mb-3">Equipment and vehicles</h2>
+<div className="max-w-2xl mx-auto border border-edge rounded-md bg-surface overflow-x-auto">
+<table className="w-full">
+  <thead><tr>
+    <th scope="col" className="text-left px-5 py-3 bg-raised">Account</th>
+    <th scope="col" className="text-right px-5 py-3 bg-raised">Amount (USD)</th>
+  </tr></thead>
+  <tbody>
+    <tr>
+      <th scope="row" className="text-left px-5 py-3 border-t border-edge">Cost</th>
+      <td id="note-equipment-cost" className="text-right px-5 py-3 border-t border-edge tabular-nums whitespace-nowrap">645,000</td>
+    </tr>
+    <tr>
+      <th scope="row" className="text-left px-5 py-3 border-t border-edge">Accumulated depreciation</th>
+      <td id="note-accumulated-depreciation" className="text-right px-5 py-3 border-t border-edge tabular-nums whitespace-nowrap">(245,000)</td>
+    </tr>
+    <tr>
+      <th scope="row" className="text-left px-5 py-3 border-t border-edge font-semibold bg-raised">Equipment and vehicles, net</th>
+      <td id="note-net-equipment" className="text-right px-5 py-3 border-t-4 border-double font-semibold bg-raised border-edge tabular-nums whitespace-nowrap">400,000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
     </div>
   )
 }
