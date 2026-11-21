@@ -50,6 +50,10 @@ function RootDocument({ children }: { children: React.ReactNode }) {
   activeProps={{ className: "font-semibold underline decoration-brand underline-offset-8" }}>
   Balance Sheet
 </Link>
+<Link to="/disclosures"
+  className="text-ink-soft hover:text-ink"
+  activeProps={{ className: "font-semibold underline decoration-brand underline-offset-8" }}
+  activeOptions={{ exact: true }}>Disclosures</Link>
   </div>
 </header>
         <main className="max-w-4xl mx-auto px-6 py-12">{children}</main>
