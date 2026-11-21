@@ -26,7 +26,7 @@ function HomePage() {
        <p className="mt-2 text-lg text-ink-soft"> Financial statements</p>
       </header>
 
-      <p className="p-6 m-6 border-2 border-current">
+      <p className="p-6 m-6">
         <p className="mt-6 text-lg text-ink-soft max-w-2xl"></p>
         Kissena Baked Goods is a bakery in{" "}
         <a
@@ -41,12 +41,17 @@ function HomePage() {
         <span>(The location link opens a new tab.)</span>
       </p>
 
-      <div className="p-6 m-6 border-2 border-current">
+      <div className="p-6 m-6">
         <p className="mt-6 text-lg text-ink-soft max-w-2xl">
           Kissena Baked Goods Inc. incorporated in New York State in late 20X4
           and opened in January 20X5. It has three ovens, four delivery vans,
           and 14 staff members.
         </p>
+        <img src="/bakery.svg"
+   alt="Illustration of seven bread loaves on three cooling shelves"
+   width={1000} height={500}
+   className="mt-8 w-full max-w-2xl rounded-md border border-edge"
+/>
       </div>
 
       <h2 className="font-display text-2xl mt-10 mb-3">What we bake</h2>
